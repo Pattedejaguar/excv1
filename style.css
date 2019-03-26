@@ -1,61 +1,66 @@
 
+body
+{
+margin: 0;
+}
 
-
-#box0
+#boxpage
 {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
-  width: 65%;
-  height: 1100px;
-  background-color:#2B3D51
-}
-h1
-{
-width: 1000px;
-height: 75px;
-text-align: center;
-}
-h2
-{
-  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+  background-color:#2B3D51;
 }
 
-/* #boxtitre
+
+/* #box0
 {
-  width: 250px;
-  height: 100px;
-  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 900px;
+  background-color:#2B3D51;
+} */
+
+/* h1
+{
+width:100%;
+height: 50px;
+text-align: center;
 } */
 
 
-#boxglo
+ #boxtitre
 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 40%;
-  height: 800px;
-  justify-content:flex-start;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
- #box1
- {
+#box1
+{
 
-   width:275px;
-   height:800px;
-   background-color:#F16024 ;
-   border-radius: 20px 20px 20px 20px;
- }
+  width:30%;
+  height:650px;
+  background-color:#F16024 ;
+  border-radius: 20px 20px 20px 20px;
+}
 
 #box4block
 {
-  width: 800px;
-  height:  800px;
+  width: 70%;
+  height: 650px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: column ;
+  justify-content: space-between ;
   align-items : center;
 
 
@@ -64,7 +69,7 @@ h2
  #box2
  {
     width:550px;
-   height:130px;
+   height:115px;
    background-color:#dd493a ;
    border-radius: 20px 20px 20px 20px;
  }
@@ -72,14 +77,14 @@ h2
 #box3
 {
   width:600px;
-  height:130px;
+  height:115px;
   background-color:#995DB5 ;
   border-radius: 20px 20px 20px 20px;
 }
 #box4
  {
    width:550px;
-   height:130px;
+   height:115px;
    background-color:#dd493a;
    border-radius: 20px 20px 20px 20px;
  }
@@ -88,17 +93,18 @@ h2
 {
   flex-wrap: wrap;
   width:600px;
-  height:130px;
+  height:115px;
   background-color: #995DB5;
   border-radius: 20px 20px 20px 20px;
 }
 
 #box6
 {
-  width: 600px;
-  height:75px;
+  width: 850px;
+  height:50px;
   background-color: #995DB5;
-  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+
 
 }
 
