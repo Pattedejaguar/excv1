@@ -1,21 +1,115 @@
 
+.topbar
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 610px;
+    margin: 20px 24%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: slidedown 1s;
+  }
+
+.topbar a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#contact
+{
+
+ align-items: center;
+ height:150px;
+ width: 450px;
+ color: white;
+ /* background-color: black; */
+ margin-top: 15%;
+
+
+}
+#blockpre
+{
+  align-items: center;
+  height: auto;
+  width: 80% ;
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 20px 20px 20px 20px;
+}
+
+ul
+{
+  font-family: impact;
+  margin:10px;
+  font-weight: bold;
+}
+li
+{
+margin: 5px;
+font-size: 15px;
+font-weight : 100;
+}
+
+.loisir
+{
+  margin-top: 30%;
+}
+
+#passet
+{
+
+}
+
+p
+{
+  margin: 10px;
+}
+
+
 body
 {
-margin: 0;
+  background-image: url("assets/fond.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: Times, sans-serif
 }
 h1
 {
  font-size: 45px;
+text-align: center;
 }
+h2
+{
+  text-align: center;
+}
+
+/* #box1 a
+{
+list-style-type: none;
+} */
+
 #boxpage
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  height: 1000px;
+  height: 2000px;
   background-color:#2B3D51;
 }
+
+
 
  #boxtitre
 {
@@ -26,12 +120,20 @@ h1
 
 }
 
+
 #box1
 {
+  display: flex;
+  flex-direction: column;
   width:30%;
   height:80%;
-  background-color:#F16024 ;
+  background-color:#13874b;
   border-radius: 20px 20px 20px 20px;
+}
+#boxlgo
+{
+  margin: 30px;
+  padding: 30px;
 }
 
 #box4block
@@ -46,9 +148,9 @@ h1
 
  #box2
  {
-    width:77%;
+   width:77%;
    height:17%;
-   background-color:#dd493a ;
+   background-color:#383C9C ;
    border-radius: 20px 20px 20px 20px;
  }
 
@@ -72,25 +174,24 @@ h1
 {
   width:85%;
   height:17%;
-  background-color: #995DB5;
+  background-color: #ed6612;
   border-radius: 20px 20px 20px 20px;
 }
 
 #box6
 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   height:5%;
   background-color: #995DB5;
   border-radius: 20px 20px 20px 20px;
-  justify-content: center;
-}
+  }
+
 #menu
 {
-  text-align: center;
   list-style-type: none;
-  margin-left: 40%;
-  margin-top: 7%;
-  font-family: OCR A Std, monospace;
   font-size : x-large;
   font-weight : bold;
 
@@ -142,7 +243,8 @@ h1
  {
   #boxpage
   {width:100%;
-  height: 2500px
+  height: 2500px;
+  background-color:black;
  }
 
  #boxtitre
@@ -152,38 +254,39 @@ h1
   height: 5%;
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
   #box1
 {
   width: 90%;
-  height: 20%;
+  height:auto;
 }
 
   #box2
 {
   width: 70%;
-  height:22%
+  height: auto;
 }
     #box3
 {
   width: 80%;
-  height: 20%;
+  height: auto;
 }
 #box4
 {
   width: 70%;
-  height:22%;
+  height:auto;
 }
 #box5
 {
   width: 80%;
-  height: 20%;
+  height: auto;
 }
 
   #box4block
 {
   width: 100%;
-  height: 40%;
+  height: auto;
 }
 
 }
